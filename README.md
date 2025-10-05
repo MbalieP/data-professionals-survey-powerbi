@@ -2,13 +2,12 @@
 
 ##  Project Overview
 
-This repository contains the final project for the [Your Name/Channel Name] Power BI Tutorial Series. The project involves building an interactive Power BI dashboard from a **real, raw dataset** collected from a survey of over 600 data professionals.
+This repository contains a Power BI dashboard analyzing real survey data from over 600 data professionals. The project demonstrates the end-to-end process of data analysis:
 
-The focus was on the end-to-end process:
-*   **Data Transformation:** Using Power Query to clean and shape the raw, messy survey data.
-*   **Data Modeling:** Creating calculated columns and measures (like average salary).
-*   **Data Visualization:** Building a cohesive and insightful dashboard with various chart types.
-*   **Dashboard Design:** Applying a custom theme and layout for a polished, professional look.
+*   **Data Transformation:** Using Power Query to clean and shape raw, messy survey data
+*   **Data Modeling:** Creating calculated columns and measures (like average salary)
+*   **Data Visualization:** Building an interactive dashboard with various chart types
+*   **Dashboard Design:** Applying custom themes for a professional presentation
 
 ##  Key Insights Explored
 
@@ -23,10 +22,36 @@ The dashboard provides insights into the data community, answering questions lik
 
 ##  Tools & Technologies
 
-*   **Microsoft Power BI:** For ETL, data modeling, and visualization.
-*   **Power Query (M Language):** For data transformation and cleaning.
-*   **DAX (Data Analysis Expressions):** For creating calculated columns and measures.
-*   **Git & GitHub:** For version control and project hosting.
+*   **Microsoft Power BI:** For ETL, data modeling, and visualization
+*   **Power Query (M Language):** For data transformation and cleaning
+*   **DAX (Data Analysis Expressions):** For creating calculated columns and measures
+*   **Git & GitHub:** For version control and project hosting
+
+##  Project Structure
+data-professionals-survey-powerbi/
+│
+├── 📁 Data/
+│ └── Power BI - Final Project.xlsx # Raw survey data
+│
+├── 📁 Power_BI_File/
+│ └── Data Professional survey.pbix # Main Power BI report
+│
+├── 📁 Screenshots/
+│ └── Dashboard_Final_View.png # Dashboard preview
+│
+└── README.md # Project documentation
+
+text
+
+##  Dashboard Preview
+
+## 📸 Dashboard Preview
+
+### Final Dashboard
+![Final Dashboard](Screenshots/final%20dashbord.png)
+
+### Work in Progress
+![Progress View](Screenshots/progress.png)
 
 ##  How to Use This Project
 
@@ -35,47 +60,40 @@ The dashboard provides insights into the data community, answering questions lik
     git clone https://github.com/your-username/data-professionals-survey-powerbi.git
     ```
 
-2.  **Get the Data:**
-    *   Download the `Power BI Final Project.xlsx` file from the source provided in the tutorial video.
-    *   Place the Excel file inside the `Data/` folder in the cloned repository.
+2.  **Open in Power BI:**
+    *   Navigate to the `Power_BI_File/` directory
+    *   Open the `Data Professional survey.pbix` file in Power BI Desktop
 
-3.  **Open the Power BI File:**
-    *   Navigate to the `Power_BI_File/` directory and open the `Data_Professional_Survey_Analysis.pbix` file in Power BI Desktop.
-    *   If prompted, update the data source path to point to the Excel file in your local `Data/` folder.
-
-4.  **Explore!** Interact with the filters and visuals to explore the insights for yourself.
+3.  **Explore!** Interact with the filters and visuals to explore insights about data professionals.
 
 ##  Key Learnings & Skills Demonstrated
 
 *   **Power Query Transformations:**
-    *   Splitting columns by delimiters.
-    *   Replacing values and handling text fields.
-    *   Creating custom columns for calculations (e.g., average salary from a range).
-    *   Changing data types.
+    *   Splitting columns by delimiters
+    *   Replacing values and handling text fields
+    *   Creating custom columns for calculations
+    *   Changing data types
 *   **DAX & Data Modeling:**
-    *   Creating calculated columns.
-    *   Using basic aggregation functions (AVERAGE, COUNT).
+    *   Creating calculated columns
+    *   Using aggregation functions (AVERAGE, COUNT)
 *   **Data Visualization:**
-    *   Utilizing various chart types: Bar/Column Charts, Treemaps, Gauges, Donut Charts, and Cards.
-    *   Effective use of titles, legends, and tooltips.
-    *   Creating an interactive dashboard where visuals cross-filter each other.
+    *   Utilizing various chart types: Bar/Column Charts, Treemaps, Gauges, Donut Charts, and Cards
+    *   Creating interactive dashboards with cross-filtering
 *   **Design & UX:**
-    *   Applying and customizing Power BI themes.
-    *   Strategic layout and alignment for a clean, professional presentation.
+    *   Applying and customizing Power BI themes
+    *   Strategic layout for clean, professional presentation
 
-##  Links & Acknowledgments
+##  Acknowledgments
 
-*   **Tutorial Series Playlist:** [Link to your YouTube Playlist]
-*   **Original Data Source:** [Link to the GitHub/GDrive where the raw data is hosted, as mentioned in the video]
-*   This project was inspired by the desire to move beyond "perfect" datasets and tackle the challenges of real-world, messy data.
+*   This project uses real survey data collected from data professionals
+*   Inspired by the desire to move beyond "perfect" datasets and tackle real-world, messy data
 
 ---
 ###  Suggestions for Further Analysis
 
-This dataset has immense potential for deeper analysis. Some ideas:
-*   Perform more advanced data cleaning (e.g., standardizing the "Other" job titles and countries).
-*   Create more complex DAX measures for year-over-year growth or rankings.
-*   Analyze correlation between salary and factors like country, job title, and programming language.
+This dataset has potential for deeper analysis:
+*   Perform more advanced data cleaning (standardizing "Other" job titles and countries)
+*   Create more complex DAX measures for rankings and correlations
+*   Analyze relationships between salary and factors like country, job title, and programming language
 
 **Feel free to fork this repository and build upon it!**
-
