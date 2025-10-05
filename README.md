@@ -47,12 +47,16 @@ text
 
 ## 📸 Dashboard Preview
 
-### Final Dashboard
+## 📸 Dashboard Preview
+
+### Final Interactive Dashboard
 ![Final Dashboard](Screenshots/final%20dashbord.png)
+
+### Clean Final View
+![Clean Final View](Screenshots/final.png)
 
 ### Work in Progress
 ![Progress View](Screenshots/progress.png)
-
 ##  How to Use This Project
 
 1.  **Clone the Repository:**
