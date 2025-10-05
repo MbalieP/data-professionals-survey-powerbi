@@ -47,18 +47,11 @@ text
 ### Final Interactive Dashboard
 ![Final Dashboard](Screenshots/Final%20Dashbord%20view.png)
 
-### Clean Final View
-![Clean Final View](Screenshots/final.png)
 
 ### Work in Progress
 ![Progress View](Screenshots/progress.png)
 
-### Clean Final View
-![Clean Final View](Screenshots/final.png)
 
-### Work in Progress
-![Progress View](Screenshots/progress.png)
-##  How to Use This Project
 
 1.  **Clone the Repository:**
     ```bash
