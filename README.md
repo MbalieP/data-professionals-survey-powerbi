@@ -86,12 +86,5 @@ text
 *   This project uses real survey data collected from data professionals
 *   Inspired by the desire to move beyond "perfect" datasets and tackle real-world, messy data
 
----
-###  Suggestions for Further Analysis
-
-This dataset has potential for deeper analysis:
-*   Perform more advanced data cleaning (standardizing "Other" job titles and countries)
-*   Create more complex DAX measures for rankings and correlations
-*   Analyze relationships between salary and factors like country, job title, and programming language
 
 **Feel free to fork this repository and build upon it!**
