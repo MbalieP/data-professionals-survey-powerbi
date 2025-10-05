@@ -42,15 +42,16 @@ data-professionals-survey-powerbi/
 └── README.md # Project documentation
 
 text
-
-##  Dashboard Preview
-
-## 📸 Dashboard Preview
-
 ## 📸 Dashboard Preview
 
 ### Final Interactive Dashboard
-![Final Dashboard](Screenshots/final%20dashbord.png)
+![Final Dashboard](Screenshots/Final%20Dashbord%20view.png)
+
+### Clean Final View
+![Clean Final View](Screenshots/final.png)
+
+### Work in Progress
+![Progress View](Screenshots/progress.png)
 
 ### Clean Final View
 ![Clean Final View](Screenshots/final.png)
