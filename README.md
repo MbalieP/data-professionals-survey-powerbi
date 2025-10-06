@@ -3,7 +3,6 @@
 ##  Project Overview
 
 This repository contains a Power BI dashboard analyzing real survey data from over 600 data professionals. The project demonstrates the end-to-end process of data analysis:
-
 *   **Data Transformation:** Using Power Query to clean and shape raw, messy survey data
 *   **Data Modeling:** Creating calculated columns and measures (like average salary)
 *   **Data Visualization:** Building an interactive dashboard with various chart types
